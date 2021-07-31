@@ -1,0 +1,35 @@
+import 'dart:async';
+import 'dart:io';
+
+import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:intl/date_symbol_data_local.dart';
+import 'package:kurir_zahra/cubit/pesanan_cubit.dart';
+import 'package:kurir_zahra/cubit/user_cubit.dart';
+import 'package:kurir_zahra/helper/helper.dart';
+import 'package:kurir_zahra/models/models.dart';
+import 'package:kurir_zahra/services/services.dart';
+import 'package:kurir_zahra/shared/shared.dart';
+import 'package:kurir_zahra/ui/widget/widget.dart';
+import 'package:maps_launcher/maps_launcher.dart';
+import 'package:provider/provider.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:supercharged/supercharged.dart';
+import 'package:lottie/lottie.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:whatsapp_unilink/whatsapp_unilink.dart';
+
+part 'splash_screen_page.dart';
+part 'login_page.dart';
+part 'main_page.dart';
+part 'search_page.dart';
+part 'detail_order_page.dart';
+part 'profile_page.dart';
+part 'edit_profile_page.dart';
+part 'change_password_page.dart';
